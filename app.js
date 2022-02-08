@@ -111,13 +111,13 @@ const checkRow = () => {
         } else {
             flipTile()
             if (wordle == guess) {
-                showMessage('Magnificent!')
+                showMessage('Condragulations!')
                 isGameOver = true
                 return
             } else {
                 if (currentRow >= 5) {
                     isGameOver = true
-                    showMessage('Game Over')
+                    showMessage('Sashay... Away')
                     return
                 }
                 if (currentRow < 5) {

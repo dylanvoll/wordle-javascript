@@ -16,8 +16,9 @@ h1 {
     background-color: #818384;
 }
 
+
 .game-container {
-    height: 90vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
