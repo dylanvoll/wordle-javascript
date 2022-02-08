@@ -1,10 +1,16 @@
-const PORT = 8000
-const axios = require("axios").default
-const express = require("express")
-const cors = require("cors")
-require('dotenv').config()
-const app = express()
+const express = require('express');
+const app = new express();
 
-app.use(cors())
+app.get('/', function(request, response){
+    response.sendFile(__dirname + '/index.html');
+});
 
-app.listen(PORT, () => console.log('Server running on port ' + PORT))
+app.get('/style.css', function(request, response){
+    response.sendFile(__dirname + '/style.css');
+});
+
+app.get('/app.js', function(request, response){
+    response.sendFile(__dirname + '/app.js');
+});
+
+app.listen(8080);
