@@ -5,7 +5,15 @@
 }
 
 body {
-    background-color: #121213;
+    background-image: url("https://static.wikia.nocookie.net/logosrupaulsdragrace/images/6/62/RDR14.jpg/revision/latest?cb=20211215174436");
+    background-color: #cccccc;
+    background-position: center;
+    background-size: 300px 300px;
+}
+
+h1 {
+    color: #FFC0CB;
+    background-color: #818384;
 }
 
 .game-container {
@@ -18,13 +26,14 @@ body {
 
 .title-container {
     text-align: center;
-    width: 510px;
+    width: 300px;
     border-bottom: solid 1px #3a3a3c;
 }
 
 .tile-container {
     width: 330px;
     margin-bottom: 30px;
+    background-color: #FFC0CB; 
 }
 
 .key-container {
@@ -60,6 +69,7 @@ body {
     height: 62px;
     border: 2px solid#3a3a3c;
     box-sizing: border-box;
+
     display: flex;
     justify-content: center;
     align-items: center;
