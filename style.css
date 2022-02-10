@@ -18,7 +18,8 @@ h1 {
 
 
 .game-container {
-    height: 50vh;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -36,7 +37,13 @@ h1 {
 }
 
 .end-game-container h1 {
-    vertical-align:middle;
+    height: 30vh;
+    width: 30vh;
+    display: flex;
+    align-items: center;
+    background-color: #FFC0CB;
+    text-align:center;
+    vertical-align:middle
 }
 
 .title-container {
@@ -45,7 +52,8 @@ h1 {
 }
 
 .tile-container {
-    width: 330px;
+    width: 350px;
+    height: 420px;
     margin-bottom: 30px;
     background-color: #FFC0CB; 
 }
@@ -79,9 +87,9 @@ h1 {
 }
 
 .tile-container .tile {
-    width: 62px;
-    height: 62px;
-    border: 2px solid#3a3a3c;
+    width: 66px;
+    height: 66px;
+    border: 3px solid#3a3a3c;
     box-sizing: border-box;
 
     display: flex;
@@ -92,6 +100,7 @@ h1 {
 
 .message-container {
     height: 30px;
+    margin: 30px;
 }
 
 .message-container p {
