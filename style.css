@@ -24,6 +24,7 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    zoom: 1.4;
 }
 
 .end-game-container {
