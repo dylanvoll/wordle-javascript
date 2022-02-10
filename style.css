@@ -25,10 +25,23 @@ h1 {
     align-items: center;
 }
 
+.end-game-container {
+    height: 30vh;
+    width: 30vh;
+    display: flex;
+    align-items: center;
+    background-color: #FFC0CB;
+    text-align:center;
+    vertical-align:middle
+}
+
+.end-game-container h1 {
+    vertical-align:middle;
+}
+
 .title-container {
     text-align: center;
     width: 300px;
-    border-bottom: solid 1px #3a3a3c;
 }
 
 .tile-container {
