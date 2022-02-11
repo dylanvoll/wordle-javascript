@@ -115,6 +115,8 @@ h1 {
       display: none;
       width: 45%;
       height: 60%;
+      max-width: 300px;
+      max-height: 500px;
       position: fixed;
       background-color: #818384;
       margin-top: 100px;
@@ -149,6 +151,7 @@ h1 {
     background-color: #FFC0CB;
     font-size : 20px;
     font-weight: bold;
+    margin: 2px;
 }
 
 .tile.flip {
